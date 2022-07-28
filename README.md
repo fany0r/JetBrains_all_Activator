@@ -31,3 +31,11 @@
 
 其中的 `jetbrains-agent.jar` 来源网上，安全性自检。
 
+### 0x03 有可能存在的问题
+
+bat脚本卡住？
+
+1、手动操作，编辑 `C:\Windows\System32\drivers\etc\hosts`，添加 `127.0.0.1 account.jetbrains.com jrebel.npegeek.com`
+2、复制 jetbrains-agent.jar 到软件安装目录下
+3、编辑 软件安装路径\bin\ 下的 `*.exe.vmoptions` 文件，添加： jetbrains-agent.jar 所在的路径。如：`--javaagent:D:\jetbrains-agent.jar`
+4、cpoy key.txt 
