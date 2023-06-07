@@ -21,7 +21,7 @@
 
 <div align=center><img src="img/image-20211211190523186.png" /></div>
 
-适用v2021.3及之前的，当然也适用于新版本，理论上全版本可用。
+适用v2021.3及之前的，<del>当然也适用于新版本，理论上全版本可用。</del>
 
 <div align=center><img src="img/image-20211211190803924.png" /></div>
 
